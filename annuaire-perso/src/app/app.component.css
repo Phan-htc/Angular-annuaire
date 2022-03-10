@@ -1,0 +1,17 @@
+h1 {
+    color: #3498db;
+    }
+    
+    #logo {
+    width: 4em;
+    display: inline-block;
+    vertical-align: middle;
+    }
+    
+    h1 {
+    vertical-align: middle;
+    display: inline-block;
+    }
+    #principal{
+        margin-top: 2em;
+    }

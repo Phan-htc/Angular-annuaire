@@ -1,0 +1,8 @@
+<h1>Contenue de l'annuaire</h1>
+<!--on fait une boucle en js
+(let) on déclare la variable (p) (of)pour personne a afficher-->
+
+<div *ngFor="let p of PersonneAAfficher"> 
+   <app-personne-detail [pers] ="p"></app-personne-detail>
+</div>
+

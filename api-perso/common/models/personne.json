@@ -1,0 +1,31 @@
+{
+  "name": "Personne",
+  "plural": "Personnes",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "civilite":{
+      "type": "string"
+    },
+    "nom": {
+      "type": "string",
+      "required": true
+    },
+    "prenom": {
+      "type": "string"
+    },
+    "tel": {
+      "type": "string"
+    },
+    "adresse": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

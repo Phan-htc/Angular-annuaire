@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "localmariadb": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "",
+    "database": "annuaire",
+    "password": "annuaire",
+    "name": "localmariadb",
+    "user": "annuaire",
+    "connector": "mysql"
+  }
+}
